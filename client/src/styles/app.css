@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "MyAppleFont";
+    font-weight: 300;
+    src: url("../assets/appleFont/ArbFONTS-ArabicUITextLight.otf");
+  }
+  @font-face {
+    font-family: "MyAppleFont";
+    font-weight: 400;
+    src: url("../assets/appleFont/ArbFONTS-ArabicUITextMedium.otf")
+      format("woff");
+  }
+  @font-face {
+    font-family: "MyAppleFont";
+    font-weight: 500;
+    src: url("../assets/appleFont/ArbFONTS-ArabicUIText.ttf");
+  }
+  @font-face {
+    font-family: "MyAppleFont";
+    font-weight: 600;
+    src: url("../assets/appleFont/ArbFONTS-ArabicUITextSemiBold.otf");
+  }
+  @font-face {
+    font-family: "MyAppleFont";
+    font-weight: 700;
+    src: url("../assets/appleFont/ArbFONTS-ArabicUITextBold.otf");
+  }
+  @font-face {
+    font-family: "MyAppleFont";
+    font-weight: 800;
+    src: url("../assets/appleFont/ArbFONTS-ArabicUITextHeavy.otf");
+  }
+}
+
+body {
+  font-family: "MyAppleFont", sans-serif !important;
+}
+body *:focus-visible {
+  outline: none !important;
+}
