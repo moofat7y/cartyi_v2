@@ -39,3 +39,18 @@ export const navMenuList = [
     href: "/contact-us",
   },
 ];
+
+import img1 from "/banner/1.jpg";
+import img2 from "/banner/2.jpg";
+import img3 from "/banner/5.jpg";
+export const bannerImages = [
+  {
+    image: img1,
+  },
+  {
+    image: img2,
+  },
+  {
+    image: img3,
+  },
+];

@@ -159,7 +159,7 @@ export default function MainHeader() {
       {/* <!-- drawer init and show --> */}
 
       {/* <!-- drawer component --> */}
-      <div onClick={(e) => handleClick(e)}>
+      <div className="md:hidden" onClick={(e) => handleClick(e)}>
         <div
           className={`layer h-[100vh] bg-[#11111171] fixed top-0 right-0  duration-200 ease-in-out ${
             isOpen ? "w-[100%]" : "w-0"
